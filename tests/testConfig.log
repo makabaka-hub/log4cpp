@@ -1,0 +1,15 @@
+1732888908 ERROR  : root error
+1732888908 WARN  : root warn
+1732888908 ERROR sub1 : sub1 error
+1732888908 WARN sub1 : sub1 warn
+The message sub2 error at time 2024-11-29 22:01:48,713
+1732888908 ERROR sub1.sub2 : sub2 error
+1732888908 ERROR  : root error
+1732888908 WARN  : root warn
+1732888908 ERROR sub1 : sub1 error
+1732888908 WARN sub1 : sub1 warn
+The message sub2 error at time 2024-11-29 22:01:51,714
+1732888911 ERROR sub1.sub2 : sub2 error
+The message test vform 123 at time 2024-11-29 22:01:51,714
+1732888911 ERROR sub1.sub2 : test vform 123
+PASS testConfig (exit status: 0)

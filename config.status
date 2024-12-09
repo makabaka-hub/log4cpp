@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/yii/work/log4cpp-1.1.5rc1/log4cpp'
+ac_pwd='/home/yii/work/env_src/log4cpp'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/usr/bin/mkdir -p'
@@ -996,12 +996,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/usr/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
-S["install_sh"]="${SHELL} /home/yii/work/log4cpp-1.1.5rc1/log4cpp/config/install-sh"
-S["MAKEINFO"]="${SHELL} /home/yii/work/log4cpp-1.1.5rc1/log4cpp/config/missing makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/yii/work/log4cpp-1.1.5rc1/log4cpp/config/missing autoheader"
-S["AUTOMAKE"]="${SHELL} /home/yii/work/log4cpp-1.1.5rc1/log4cpp/config/missing automake-1.16"
-S["AUTOCONF"]="${SHELL} /home/yii/work/log4cpp-1.1.5rc1/log4cpp/config/missing autoconf"
-S["ACLOCAL"]="${SHELL} /home/yii/work/log4cpp-1.1.5rc1/log4cpp/config/missing aclocal-1.16"
+S["install_sh"]="${SHELL} /home/yii/work/env_src/log4cpp/config/install-sh"
+S["MAKEINFO"]="${SHELL} /home/yii/work/env_src/log4cpp/config/missing makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/yii/work/env_src/log4cpp/config/missing autoheader"
+S["AUTOMAKE"]="${SHELL} /home/yii/work/env_src/log4cpp/config/missing automake-1.16"
+S["AUTOCONF"]="${SHELL} /home/yii/work/env_src/log4cpp/config/missing autoconf"
+S["ACLOCAL"]="${SHELL} /home/yii/work/env_src/log4cpp/config/missing aclocal-1.16"
 S["VERSION"]="1.1"
 S["PACKAGE"]="log4cpp"
 S["CYGPATH_W"]="echo"
