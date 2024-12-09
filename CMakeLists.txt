@@ -24,13 +24,7 @@ ELSE (WIN32)
   ENDIF (APPLE)
 ENDIF (WIN32)
 
-IF ( CMAKE_BUILD_TYPE MATCHES "Debug" )
-  SET ( LOG4CPP_LIBRARY_NAME "log4cppD" )
-ELSE ( CMAKE_BUILD_TYPE MATCHES "Debug" )
-  SET ( LOG4CPP_LIBRARY_NAME "log4cpp" )
-ENDIF ( CMAKE_BUILD_TYPE MATCHES "Debug" )
-
-ADD_LIBRARY ( ${LOG4CPP_LIBRARY_NAME}
+add_library (log4cpp
   src/Appender.cpp
   src/AppenderSkeleton.cpp
   src/AppendersFactory.cpp
@@ -79,6 +73,7 @@ ADD_LIBRARY ( ${LOG4CPP_LIBRARY_NAME}
   src/PortabilityImpl.cpp
   src/AbortAppender.cpp
 )
+add_library(log4cpp::log4cpp ALIAS log4cpp)
 
 IF (WIN32)
   TARGET_LINK_LIBRARIES (${LOG4CPP_LIBRARY_NAME} kernel32 user32 ws2_32 advapi32 )
