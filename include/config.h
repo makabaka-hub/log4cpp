@@ -20,9 +20,9 @@
 #define HAVE_INT64_T /**/
 
 /* Define to 1 if you have the <inttypes.h> header file. */
-#ifndef HAVE_INTTYPES_H
-#define HAVE_INTTYPES_H 1
-#endif
+//#ifndef HAVE_INTTYPES_H
+//#define HAVE_INTTYPES_H 1
+//#endif
 
 /* Define to 1 if you have the <io.h> header file. */
 /* #undef HAVE_IO_H */
@@ -64,22 +64,22 @@
 #define HAVE_SYSLOG 1
 
 /* Define to 1 if you have the <sys/stat.h> header file. */
-#ifndef HAVE_SYS_STAT_H
-#define HAVE_SYS_STAT_H 1
-#endif
+//#ifndef HAVE_SYS_STAT_H
+//#define HAVE_SYS_STAT_H 1
+//#endif
 
 /* Define to 1 if you have the <sys/types.h> header file. */
-#ifndef HAVE_SYS_TYPES_H
-#define HAVE_SYS_TYPES_H 1
-#endif
+//#ifndef HAVE_SYS_TYPES_H
+//#define HAVE_SYS_TYPES_H 1
+//#endif
 
 /* define if threading is enabled */
 #define HAVE_THREADING 1
 
 /* Define to 1 if you have the <unistd.h> header file. */
-#ifndef HAVE_UNISTD_H
-#define HAVE_UNISTD_H 1
-#endif
+//#ifndef HAVE_UNISTD_H
+//#define HAVE_UNISTD_H 1
+//#endif
 
 /* Define to the sub-directory where libtool stores uninstalled libraries. */
 #define LT_OBJDIR ".libs/"
